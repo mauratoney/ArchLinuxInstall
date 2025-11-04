@@ -1,6 +1,6 @@
 layout: page
 title: "Arch-Install-Documentation"
-permalink: /ToneyArchDoc
+permalink: /arch-doc/
 
 To start, download an Arch ISO and the respective PGP signature. On Windows, to verify the signature download Gpg4win and then use the command gpg --auto-key-locate clear,wkd -v --locate-external-key pierre@archlinux.org. This is just one option for an external key. With that done, the signature can be verified with the command gpg --verify <signature file name> <iso file name>. If the command indicates the two match, the iso should be safe to use. 
 
