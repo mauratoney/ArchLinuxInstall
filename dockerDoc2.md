@@ -60,6 +60,7 @@ After:
 To connect a Windows device, start by creating a new client as before, this time naming it "puter". Once it is created, from this same tab, select the Download option for the computer client, which will download the configuration file. If the option to "Apply Config" exists in the upper right, select it. Install the WireGuard desktop client for Windows and open it. Import the configuration file that was just downloaded. Right click on the "puter" listing in the bank on the left and select "Edit Selected Tunnel". If "Block untunneled traffic" is checked, uncheck it. Now the latest handshake should indicate that the connection is successful. Once again use "ip.hetzner.com" to show the before and after for the ip address of the Windows device:
 
 Before:
+
 ![image of computer's ip before](windowsBefore.png "Windows before picture")
 
 After:
